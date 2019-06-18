@@ -1,37 +1,56 @@
+/* GLOBAL */
+
+*{box-sizing: border-box;}
+
 body {
-    background: linear-gradient(rgb(134, 248, 140), rgb(228, 147, 201));
+    font-family: sans-serif;
     margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: darkred;
+}
+
+
+/* HEADER */
+header {
+    background: black;
+    color: white;
+    padding: 1em 2em;
+}
+
+header a {
+    color: white;
+}
+
+header {
     display: grid;
-    align content: center;
-    text-align: center;
-    min-height: 100vh;
-    color: rgb(2, 253, 2);
-
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
-h1 {
-   
-    font-size: 37px;
-    font-family: fantasy;
-    color: rgb(255, 0, 149);
-
+/* SITE ID */
+.site-id h1 {
     margin: 0;
 }
 
-h2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-p {
-    max-width: 600px;
-    margin: 0 auto;
-    padding; 0;
-    font-family: cursive;
-    color: rgb(253, 6, 150)
-
+/* NAV */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding-top: .6em;
 }
 
-li{
-    text-align: left;
+nav li{
+    margin: 0;
+    list-style: none;
 }
+
+nav a{
+    display: block;
+    padding: 1em;
+}
+
+/* FOOTER */
