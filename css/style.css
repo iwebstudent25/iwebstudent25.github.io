@@ -3,25 +3,25 @@
 *{box-sizing: border-box;}
 
 body {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
 
 a{
     text-decoration: none;
-    color: darkred;
+    color: rebeccapurple;
 }
 
 
 /* HEADER */
 header {
-    background: black;
-    color: white;
+    background: palevioletred;
+    color: rebeccapurple;
     padding: 1em 2em;
 }
 
 header a {
-    color: white;
+    color: rebeccapurple;
 }
 
 header {
@@ -81,9 +81,9 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
+    background: rgb(11, 201, 11);
     min-height: 50vh;
-    color: white;
+    color: rebeccapurple;
 }
 
 
