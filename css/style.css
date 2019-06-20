@@ -88,7 +88,7 @@ section {
 
 
 .hero h2 {
-    font-size: 6em;
+    font-size: 4em;
     text-transform: uppercase;
     margin: 0 auto;
 }
@@ -111,4 +111,10 @@ section {
     .lists {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+/* SUB PAGES */
+.page-sub .hero{
+    min-height: 30vh;
+    background: #888
 }
