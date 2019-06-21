@@ -121,3 +121,20 @@ section {
 .page-sub header {
     background:rgb(11, 201, 11);
 }
+
+/* BLOG ARCHIVES */
+.blog-archives {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
+}
