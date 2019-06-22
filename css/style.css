@@ -36,8 +36,14 @@ header {
 }
 
 /* NAV */
+.site-nav{
+ 
+}
+
+
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     margin: 0;
     padding-top: .6em;
@@ -120,6 +126,8 @@ section {
 }
 .page-sub header {
     background:rgb(11, 201, 11);
+
+    
 }
 
 /* BLOG ARCHIVES */
@@ -138,3 +146,6 @@ section {
     opacity: .5;
     font-size: .8em;
 }
+
+/* ESCAPE! */
+
