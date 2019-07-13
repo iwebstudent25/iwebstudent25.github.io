@@ -112,6 +112,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
+    color: palevioletred
 }
 
 @media (max-width:767px) {
