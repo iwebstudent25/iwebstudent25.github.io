@@ -15,7 +15,7 @@ a{
 
 /* HEADER */
 header {
-    background: palevioletred;
+    background: lightpink;
     color: rebeccapurple;
     padding: 1em 2em;
 }
@@ -61,7 +61,7 @@ nav a{
 
 /* FOOTER */
 footer {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid lightpink;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -87,7 +87,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: rgb(11, 201, 11);
+    background: lightgreen;
     min-height: 50vh;
     color: rebeccapurple;
 }
@@ -112,7 +112,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
-    color: palevioletred
+    color: rebeccapurple
 }
 
 @media (max-width:767px) {
@@ -124,10 +124,10 @@ section {
 /* SUB PAGES */
 .page-sub .hero{
     min-height: 30vh;
-    background: palevioletred;
+    background: lightpink;
 }
 .page-sub header {
-    background:rgb(11, 201, 11);
+    background:lightgreen;
 
     
 }
@@ -154,6 +154,7 @@ section {
 /* UI DESIGNS */
 .ui-designs {
     text-align: center;
+    color:rebeccapurple;
 }
 .ui-designs img {
     max-width: 200px;
